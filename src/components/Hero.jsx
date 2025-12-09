@@ -144,7 +144,7 @@ const Hero = () => {
                 textFillColor: "transparent",
               }}
             >
-              An
+              Ann
             </span>{" "}
             <WavingHand />
           </h1>
