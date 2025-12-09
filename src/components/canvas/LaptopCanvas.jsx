@@ -11,7 +11,7 @@ export default function LaptopCanvas() {
         state.gl.setClearColor(0x000000, 0);
       }}
       style={{ background: "transparent" ,
-         width: "700px",
+         width: "100%",
     height: "700px",
     margin: "0 auto"
       }}
