@@ -134,7 +134,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm{" "}
+            Hii, I'm{" "}
             <span
               style={{
                 background: "linear-gradient(90deg, #915EFF, #00BFFF)",
