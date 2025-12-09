@@ -1,5 +1,4 @@
 import {
-  ComputersCanvas,
   StarsCanvas,
 } from "./canvas";
 import Hero from "./Hero";
@@ -20,7 +19,5 @@ export {
   Experience,
   Works,
   CanvasLoader,
-
-  ComputersCanvas,
   StarsCanvas,
 };
