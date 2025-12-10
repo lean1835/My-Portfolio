@@ -97,18 +97,16 @@ const projects = [
     ],
     image: ManagerShopPhone,
     source_code_link: "https://github.com/lean1835/Manager-Shop-Phone",
-    live_project_link: "https://github.com/lean1835",
+    live_project_link: "https://mspdashboard.vercel.app/",
   },
   {
     name: "Heart Animation ❤️",
-    description:
-      "A gift for my love <3 ",
+    description: "A gift for my love <3 ",
     tags: [
       {
         name: "ReactJs",
         color: "blue-text-gradient",
       },
-  
     ],
     image: heartWeb,
     source_code_link: "https://github.com/lean1835/yeu_trang_tho",
