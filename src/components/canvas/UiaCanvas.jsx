@@ -18,7 +18,7 @@ export default function UiaCanvas() {
       <ambientLight intensity={0.1} />
       <directionalLight position={[5, 5, 5]} intensity={1.5} castShadow />
       <Uia/>
-      <OrbitControls enableZoom={true} />
+      <OrbitControls enableZoom={false} />
       <Preload all />
     </Canvas>
   );
