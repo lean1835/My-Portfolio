@@ -54,8 +54,10 @@ const About = () => {
           visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
         }}
       >
-        <br /><br /><br />
-     
+        <br />
+        <br />
+        <br />
+
         <p className={styles.sectionSubText}>Introduction</p>
       </motion.div>
 
@@ -145,8 +147,8 @@ const About = () => {
               variants={fadeIn("up", "spring", 0.3, 0.75)}
             >
               <span className="mr-4 text-2xl flex-shrink-0"> 🛠 </span>
-              <span style={{marginLeft:"7px"}}>
-                  I'm passionate about building software with aesthetically
+              <span style={{ marginLeft: "7px" }}>
+                I'm passionate about building software with aesthetically
                 pleasing interfaces that deliver high practical value.
               </span>
             </motion.li>
@@ -169,12 +171,14 @@ const About = () => {
                 style={{
                   color: "#ff8a80", // Màu đỏ nhạt
                   textShadow: "rgba(255, 138, 128, 0.6) -3px 0px 0px",
-                  fontWeight: "bold", 
-                  fontSize:"20px"// (Tùy chọn) Thêm in đậm cho rõ hơn
+                  fontWeight: "bold",
+                  fontSize: "20px", // (Tùy chọn) Thêm in đậm cho rõ hơn
                 }}
               >
-                I'm actively practicing Algorithms in C++, with a dream of
-                joining Samsung in the future!
+                I aim to gain in-depth expertise in React.js and develop
+                practical projects, including a leather goods e-commerce website
+                and an AI-integrated cooking website. My long-term goal is to
+                secure a stable job in my hometown!
               </span>
             </motion.li>
           </motion.ul>

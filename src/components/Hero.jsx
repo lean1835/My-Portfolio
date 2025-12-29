@@ -88,7 +88,7 @@ const WavingHand = () => {
 };
 
 const Hero = () => {
-  const typedItems = ["Web Developer", "DSA Dev"];
+  const typedItems = ["Web Developer", "Mobile Developer"];
 
   return (
     <section className="relative w-full h-screen mx-auto">

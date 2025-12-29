@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      _ngcontent-ng-c3243541744=""
+      class="ictu-student-dashboard-panel__topic-section__body clearfix lock-ck-content lock-ck-content--fz12pt ck-editor__editable"
+    >
+      <p>
+        Bạn cần xây dựng ứng dụng đặt chỗ đỗ xe theo giờ/ngày trực tuyến với
+        những yêu cầu sau:
+      </p>
+      <ol>
+        <li>
+          Ứng dụng ban đầu là nền web, nhưng kiến trúc phải đủ linh hoạt để phát
+          triển front-end thay thế (mobile app, desktop app, web services API…).
+        </li>
+        <li>
+          Hệ thống phải cho phép bán suất đỗ xe (ôtô/xe máy) theo khung
+          giờ/ngày/gói tháng, nhận đơn đặt trực tuyến.
+        </li>
+        <li>
+          Người dùng có thể thêm bãi đỗ/khung giờ/gói vào giỏ đặt trước khi
+          thanh toán.<br />a. Người dùng có thể xóa mục khỏi giỏ đặt.
+        </li>
+        <li>
+          Người dùng có thể duy trì danh sách mong muốn (wish list) bãi đỗ/địa
+          điểm ưa thích để đặt sau.
+        </li>
+        <li>
+          Người dùng có thể hủy đơn đặt trước thời điểm check-in/vào bãi hoặc
+          trước cut-off do bãi đỗ quy định.
+        </li>
+        <li>Hệ thống cho phép thanh toán bằng thẻ hoặc ví điện tử.</li>
+        <li>
+          Người dùng có thể yêu cầu hoàn tiền/đổi khung giờ theo chính sách
+          hoàn/hủy (ví dụ hủy đúng hạn, bãi quá tải do sự cố).
+        </li>
+        <li>
+          Nền tảng có thể nhúng vào website đối tác (tòa nhà/văn phòng/trung tâm
+          thương mại/sự kiện) dưới dạng mini-catalog suất đỗ, được sinh từ
+          catalog tổng lưu trong cơ sở dữ liệu trung tâm.<br />a. Mini-catalog
+          phải được định nghĩa bằng XML để trao đổi với hệ thống bên ngoài.<br />b.
+          Xác nhận đặt chỗ (QR/biển số), đồng bộ tồn chỗ theo thời gian thực và
+          ghi nhận vào/ra được thực hiện qua dịch vụ bên thứ ba (camera
+          ANPR/CDN).
+        </li>
+        <li>
+          Người dùng có thể tạo tài khoản khách hàng để hệ thống ghi nhớ hồ sơ
+          (tên, email, số điện thoại, biển số xe, phương thức thanh toán ưa
+          dùng).<br />a. Hệ thống duy trì danh sách tài khoản trong cơ sở dữ
+          liệu trung tâm.<br />b. Khi đăng nhập, mật khẩu phải được đối chiếu
+          với danh sách tài khoản gốc.
+        </li>
+        <li>
+          Người dùng có thể tìm kiếm theo địa điểm, khung giờ, mức giá, tiện ích
+          (sạc EV, mái che, an ninh), từ khóa, rồi xem chi tiết (bản đồ vào/ra,
+          chiều cao trần, giới hạn trọng tải, quy định phạt).
+        </li>
+        <li>
+          Người dùng có thể đăng đánh giá (review) cho bãi đỗ/trải nghiệm; bình
+          luận hiển thị ở trang chi tiết; đánh giá gồm xếp hạng (1–5) và thường
+          được hiển thị kèm tiêu đề trong danh sách bãi đỗ.<br />a. Đánh giá của
+          khách hàng phải được kiểm duyệt bởi nhân viên trước khi xuất bản.<br />b.
+          Đánh giá dài sẽ được rút gọn trên trang chi tiết; người dùng có thể
+          bấm để xem đầy đủ.
+        </li>
+        <li>
+          Biên tập viên có thể đăng bài gợi ý tuyến đường/khung giờ ít kẹt xe
+          (editorial review) và hiển thị tại trang chi tiết.
+        </li>
+        <li>
+          Đối tác bãi đỗ/ban quản lý tòa nhà có thể thêm catalog suất đỗ/khung
+          giờ/gói tháng riêng; dữ liệu của họ được nhập vào catalog tổng để xuất
+          hiện trong kết quả tìm kiếm.
+        </li>
+      </ol>
+      <p>
+        Khả năng mở rộng:<br />a. Duy trì tối đa 100.000 tài khoản trong 6 tháng
+        đầu, sau đó thêm 1.000.000 tài khoản.<br />b. Phục vụ 1.000 người dùng
+        đồng thời (tăng lên 10.000 sau 6 tháng).<br />c. Đáp ứng 100 yêu cầu tìm
+        kiếm/phút (tăng lên 1.000/phút sau 6 tháng).<br />d. Xử lý 100 giao dịch
+        đặt chỗ/giờ (tăng lên 1.000/giờ sau 6 tháng).
+      </p>
+      <p>=============================================================</p>
+      <p>
+        Bài kiểm tra kỹ năng 1 - Xây dựng và hoàn thiện mô hình miền<br />Bài
+        kiểm tra kỹ năng 2 - Xây dựng và hoàn thiện sơ đồ Robustness<br />Bài
+        kiểm tra kỹ năng 3 - Xây dựng và hoàn thiện sơ đồ Sequence Diagram<br />Bài
+        kiểm tra kết thúc học phần - Hoàn thiện sơ đồ lớp
+      </p>
+    </div>
+  </body>
+</html>

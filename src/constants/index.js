@@ -55,7 +55,7 @@ const education = [
   },
   {
     title: "Comming soon...",
-    company_name: "I hope that place will be Samsung or FPT Software",
+    company_name: "I hope that place will be near home",
     icon: plane,
     iconBg: "#fff",
     date: "2027 - future",
