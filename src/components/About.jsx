@@ -3,7 +3,7 @@ import { motion, useAnimation, useInView } from "framer-motion"
 import { styles } from "../styles"
 import { SectionWrapper } from "../hoc"
 import { fadeIn } from "../utils/motion"
-import {  profilepic } from "../assets"
+import {  profilepic, ictu } from "../assets"
 
 const ServiceCard = ({ index, title, icon }) => (
   <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className="w-full xs:w-[250px]">
@@ -137,9 +137,11 @@ const About = () => {
               variants={fadeIn("up", "spring", 0.2, 0.75)}
             >
               <span className="mr-4 text-2xl flex-shrink-0">🎓</span>
-              <span>
-                Currently pursuing a Bachelor's in Software Engineering at the
-                University of Information and Communication Technology.
+              <span className="flex items-center gap-3 flex-wrap">
+                <span>
+                  Currently pursuing a Bachelor's in Software Engineering at the
+                  University of Information and Communication Technology.
+                </span>
               </span>
             </motion.li>
             <motion.li

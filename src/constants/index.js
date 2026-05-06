@@ -1,6 +1,6 @@
 import {
 
-  ictu, codegym, vti,plane, ManagerShopPhone , heartWeb,
+  ictu, codegym, vti, plane, ahv, ManagerShopPhone, heartWeb, mcp, trolo
 } from "../assets";
 
 
@@ -54,6 +54,17 @@ const education = [
     points: ["1 Project with ReactJs and Spring Boot", "Fullstack Transition | Java Backend", ,],
   },
   {
+    title: "Intern Fullstack developer",
+    company_name: "AHV Holding",
+    icon: ahv,
+    iconBg: "#fff",
+    date: "2026 - future",
+    points: [
+      "Intern Fullstack Developer in AHV Work Project Company",
+      "Tech: MERN",
+    ],
+  },
+  {
     title: "Comming soon...",
     company_name: "I hope that place will be near home",
     icon: plane,
@@ -61,7 +72,6 @@ const education = [
     date: "2027 - future",
     points: [],
   },
-
 ];
 
 
@@ -69,20 +79,29 @@ const education = [
 
 const experiences = [
   {
+    title: "Intern Fullstack developer",
+    company_name: "AHV Holding",
+    icon: ahv,
+    iconBg: "#fff",
+    date: "2026 - future",
+    points: [
+      "Developer in AHV Work Project Company",
+      "Tech: Frontend: ReactJS, TailwindCSS, Redux Toolkit, Ant Design | Backend: Nodejs, Express, MongoDB",
+      "Role: Intern MERN Stack Developer"
+    ],
+  },
+  {
     title: "Comming soon...",
     company_name: " ",
     icon: plane,
     iconBg: "#fff",
     date: "Future...",
-    points: [
-      
-    ],
+    points: [],
   },
-
 ];
 const projects = [
   {
-    name: "Manager shop Phone 🤙",
+    name: "Manager shop Phone",
     description:
       "A website that streamlines phone store management, making operations more convenient and boosting business efficiency.",
     tags: [
@@ -100,18 +119,54 @@ const projects = [
     live_project_link: "https://mspdashboard.vercel.app/",
   },
   {
-    name: "Heart Animation ❤️",
-    description: "A gift for my love <3 ",
+    name: "MCP Trainning Test",
+    description:
+      "A website that helps users practice for multiple-choice exams effectively was released.",
     tags: [
       {
         name: "ReactJs",
         color: "blue-text-gradient",
       },
+      {
+        name: "SpringBoot",
+        color: "green-text-gradient",
+      },
     ],
-    image: heartWeb,
-    source_code_link: "https://github.com/lean1835/yeu_trang_tho",
-    live_project_link: "https://yeutrangggg.vercel.app/",
+    image: mcp,
+    source_code_link: "https://github.com/trungboky123/VTIChampion",
+    live_project_link: "#",
   },
+  {
+    name: "Quản lý phòng trọ",
+    description:
+      "An application that helps users efficiently manage rental rooms, including bookings, payments, and resident management.",
+    tags: [
+      {
+        name: "ReactNative",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SpringBoot",
+        color: "green-text-gradient",
+      },
+    ],
+    image: trolo,
+    source_code_link: "https://github.com/lean1835/NhaTroVuiVe",
+    live_project_link: "#",
+  },
+  // {
+  //   name: "Heart Animation ❤️",
+  //   description: "A gift for my love <3 ",
+  //   tags: [
+  //     {
+  //       name: "ReactJs",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: heartWeb,
+  //   source_code_link: "https://github.com/lean1835/yeu_trang_tho",
+  //   live_project_link: "https://yeutrangggg.vercel.app/",
+  // },
 ];
 
 export {

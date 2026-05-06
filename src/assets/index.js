@@ -26,16 +26,23 @@ import ij from "./tech/ij.png";
 import sqlwb from "./tech/sqlwb.png";
 import postman from "./tech/postman.png";
 import ManagerShopPhone from "./ManagerShopPhone.png";
+import mcp from "./mcp.png";
+import trolo from "./trolo.png";
+
 
 // education
 import ictu from "./company/ictu.png";
 import codegym from "./company/codegym.png";
 import vti from "./company/vti.png";
 import plane from "./company/plane.png";
+import ahv from "./company/ahv.jpg";
 
 
 export {
   logo,
+  ahv,
+  mcp,
+  trolo,
   vscode,
   devc,
   ij,
