@@ -1,7 +1,6 @@
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload } from "@react-three/drei";
 import Laptop from "../Laptop";
-import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 
 export default function LaptopCanvas() {
   return (

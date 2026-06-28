@@ -1,6 +1,6 @@
 import {
 
-  ictu, codegym, vti, plane, ahv, ManagerShopPhone, heartWeb, mcp, trolo
+  ictu, codegym, vti, plane, ahv, ManagerShopPhone, heartWeb, mcp, trolo, vocabmemo, xrayvison
 } from "../assets";
 
 
@@ -34,7 +34,7 @@ const education = [
     company_name: "University of Information and Communication Technology",
     icon: ictu,
     iconBg: "#fff",
-    date: "2023 - Present",
+    date: "2023 - 2027",
     points: ["5-time University Scholarship Recipient", "Current GPA: 3.9/4.0"],
   },
   {
@@ -54,19 +54,8 @@ const education = [
     points: ["1 Project with ReactJs and Spring Boot", "Fullstack Transition | Java Backend", ,],
   },
   {
-    title: "Intern Fullstack developer",
-    company_name: "AHV Holding",
-    icon: ahv,
-    iconBg: "#fff",
-    date: "2026 - future",
-    points: [
-      "Intern Fullstack Developer in AHV Work Project Company",
-      "Tech: MERN",
-    ],
-  },
-  {
     title: "Comming soon...",
-    company_name: "I hope that place will be near home",
+    company_name: "I hope to have a good life",
     icon: plane,
     iconBg: "#fff",
     date: "2027 - future",
@@ -83,7 +72,7 @@ const experiences = [
     company_name: "AHV Holding",
     icon: ahv,
     iconBg: "#fff",
-    date: "2026 - future",
+    date: "2026",
     points: [
       "Developer in AHV Work Project Company",
       "Tech: Frontend: ReactJS, TailwindCSS, Redux Toolkit, Ant Design | Backend: Nodejs, Express, MongoDB",
@@ -91,8 +80,20 @@ const experiences = [
     ],
   },
   {
+    title: "Intern Frontend developer",
+    company_name: "CodeGym",
+    icon: codegym,
+    iconBg: "#fff",
+    date: "2026",
+    points: [
+      "Intern Frontend Developer in CodeGym Work Project Company",
+      "Tech: ReactJs, HTML, CSS, JavaScript",
+      "Role: Intern Frontend Developer"
+    ],
+  },
+  {
     title: "Comming soon...",
-    company_name: " ",
+    company_name: "Future...",
     icon: plane,
     iconBg: "#fff",
     date: "Future...",
@@ -146,27 +147,67 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "SpringBoot",
+        name: "NodeJs",
         color: "green-text-gradient",
       },
     ],
     image: trolo,
     source_code_link: "https://github.com/lean1835/NhaTroVuiVe",
+    live_project_link: "https://drive.google.com/file/d/1t67OkBDb7tnh7Yp6nu10BiBrInApWz3C/view?usp=drive_link",
+  },
+  {
+    name: "VocabMemo",
+    description:
+      "AI-powered vocabulary platform with smart flashcard generation, practice features, and word management",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NodeJs",
+        color: "green-text-gradient",
+      },
+    ],
+    image: vocabmemo,
+    source_code_link: "https://github.com/lean1835/vocabmemo",
+    live_project_link: "https://vocabularymemo.vercel.app/",
+  },
+  {
+    name: "XrayVision",
+    description:
+      "AI-powered chest X-ray diagnosis platform using CheXNet to detect lung diseases and provide prediction results.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NodeJs",
+        color: "green-text-gradient",
+      },
+    ],
+    image: xrayvison,
+    source_code_link: "https://github.com/lecuong2512/CheXNet",
     live_project_link: "#",
   },
-  // {
-  //   name: "Heart Animation ❤️",
-  //   description: "A gift for my love <3 ",
-  //   tags: [
-  //     {
-  //       name: "ReactJs",
-  //       color: "blue-text-gradient",
-  //     },
-  //   ],
-  //   image: heartWeb,
-  //   source_code_link: "https://github.com/lean1835/yeu_trang_tho",
-  //   live_project_link: "https://yeutrangggg.vercel.app/",
-  // },
+  {
+    name: "Heart Animation ",
+    description: "A gift for my love <3               ",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: heartWeb,
+    source_code_link: "https://github.com/lean1835/yeu_trang_tho",
+    live_project_link: "https://yeutrangggg.vercel.app/",
+  },
 ];
 
 export {

@@ -1,4 +1,4 @@
-import profilepic from "./pfp.png";
+import profilepic from "./avt.jpg";
 import logo from "./logo0.png";
 import github from "./github.png";
 import heartWeb from "./heart-web.png";
@@ -11,10 +11,13 @@ import reactjs from "./tech/reactjs.png";
 import python from "./tech/python.png";
 import cplusplus from "./tech/c++.svg";
 import typescript from "./tech/typescript.png";
+import antigravity from "./tech/antigravity.png";
 import threejs from "./tech/threejs.svg";
 import bootstrap from "./tech/bootstrap.png";
+import nodejs from "./tech/nodejs.png";
 import spring from "./tech/spring.png";
 import wireshark from "./tech/wireshark.png";
+import mongodb from "./tech/mongodb.png";
 import chatgpt from "./tech/chatgpt.png";
 import gemini from "./tech/gemini.png";
 import copilot from "./tech/copilot.png";
@@ -28,6 +31,8 @@ import postman from "./tech/postman.png";
 import ManagerShopPhone from "./ManagerShopPhone.png";
 import mcp from "./mcp.png";
 import trolo from "./trolo.png";
+import vocabmemo from "./vocabmemo.png";
+import xrayvison from "./xrayvison.png";
 
 
 // education
@@ -59,7 +64,9 @@ export {
   python,
   cplusplus,
   typescript,
+  antigravity,
   wireshark,
+  mongodb,
   profilepic,
   mysql,
   heartWeb,
@@ -70,9 +77,12 @@ export {
   plane,
   spring,
   bootstrap,
+  nodejs,
   chatgpt,
   gemini,
   copilot,
   claude,
   cursor,
+  vocabmemo,
+  xrayvison,
 };

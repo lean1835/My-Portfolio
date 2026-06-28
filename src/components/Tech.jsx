@@ -8,13 +8,15 @@ import {
   python,
   javascript,
   java,
-  cplusplus,
+  typescript,
+  antigravity,
   reactjs,
   threejs,
   wireshark,
+  mongodb,
   html,
   css,
-  bootstrap,
+  nodejs,
   spring,
   mysql,
   vscode,
@@ -34,11 +36,11 @@ const programming = [
   { name: "Css", icon: css },
   { name: "JavaScript", icon: javascript },
   { name: "Java", icon: java },
-  { name: "C++", icon: cplusplus },
+  { name: "Typescript", icon: typescript },
   { name: "Python", icon: python },
   { name: "React JS", icon: reactjs },
   { name: "Spring Boot", icon: spring },
-  { name: "Bootstrap", icon: bootstrap },
+  { name: "Node.js", icon: nodejs },
   { name: "MySQL", icon: mysql },
   { name: "Three.js", icon: threejs },
 ];
@@ -46,10 +48,10 @@ const programming = [
 const itTools = [
   { name: "Vs code", icon: vscode },
   { name: "Inteliji", icon: ij },
-  { name: "Dev C++", icon: devc },
+  { name: "Antigravity", icon: antigravity },
   { name: "Sqlwb", icon: sqlwb },
   { name: "Postman", icon: postman },
-  { name: "Wireshark", icon: wireshark },
+  { name: "MongoDB", icon: mongodb },
   // AI Tools
   { name: "ChatGPT", icon: chatgpt },
   { name: "Gemini", icon: gemini },
@@ -186,7 +188,14 @@ const Tech = () => {
                 <img
                   src={tech.icon}
                   alt={tech.name}
-                  style={{ userSelect: "none" }}
+                  style={{
+                    userSelect: "none",
+                    borderRadius: tech.name === "Node.js" ? "50%" : "0%",
+                    backgroundColor: tech.name === "Node.js" ? "#fff" : "transparent",
+                    padding: tech.name === "Node.js" ? "8px" : "0px",
+                    objectFit: tech.name === "Node.js" ? "contain" : "initial",
+                    height: tech.name === "Node.js" ? "80px" : "100px",
+                  }}
                   draggable="false"
                 />
               </motion.div>

@@ -1,10 +1,19 @@
 import { useGLTF } from "@react-three/drei";
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import { useFrame } from "@react-three/fiber";
 
 export default function Laptop(props) {
   const { scene } = useGLTF("/models/laptop2.glb");
   const ref = useRef();
+
+  useEffect(() => {
+    scene.traverse((child) => {
+      if (child.isMesh) {
+        child.castShadow = true;
+        child.receiveShadow = true;
+      }
+    });
+  }, [scene]);
 
   // Xoay model mỗi frame
   useFrame((state, delta) => {

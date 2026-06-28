@@ -7,8 +7,8 @@ import UiaCanvas from './components/canvas/UiaCanvas.jsx'
 function App() {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-primary">
-        <div className="div bg-hero-pattern bg-cover bg-no-repeat bg-center">
+      <div className="relative z-0 bg-black">
+        <div>
           <Navbar />
           <Hero />
         </div>
@@ -17,7 +17,7 @@ function App() {
         <Experience />
         <Tech />
         <Works />
-        <div className="div relative z-0">
+        <div className="relative z-0">
           <StarsCanvas />
         </div>
         <UiaCanvas />
@@ -26,4 +26,4 @@ function App() {
   );
 }
 
-export default App
+export default App;

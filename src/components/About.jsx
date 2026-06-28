@@ -77,11 +77,11 @@ const About = () => {
           variants={fadeIn("right", "spring", 0.5, 0.75)}
           className="w-full md:w-1/3 flex flex-col items-center"
         >
-          <div className="relative w-64 h-64 rounded-full overflow-hidden shadow-[0_0_22.5px_7.5px_rgba(59,130,246,1)]">
+          <div className="relative w-48 h-48 rounded-full overflow-hidden shadow-[0_0_22.5px_7.5px_rgba(59,130,246,1)]">
             <div className="w-full h-full overflow-hidden">
               <img
                 src={profilepic || "/placeholder.svg"}
-                alt="Sunny Patel"
+                alt="anle"
                 className="w-full h-full object-cover"
                 style={{
                   objectFit: "cover",
@@ -128,30 +128,25 @@ const About = () => {
             >
               <span className="mr-4 text-2xl flex-shrink-0">👨‍💻</span>
               <span>
-                I'm a Software Engineer with nearly 1 year of experience in Web
-                Development.
+                I'm a web developer and online entrepreneur with a passion for building practical digital solutions.
               </span>
             </motion.li>
             <motion.li
               className="flex items-start"
               variants={fadeIn("up", "spring", 0.2, 0.75)}
             >
-              <span className="mr-4 text-2xl flex-shrink-0">🎓</span>
-              <span className="flex items-center gap-3 flex-wrap">
-                <span>
-                  Currently pursuing a Bachelor's in Software Engineering at the
-                  University of Information and Communication Technology.
-                </span>
+              <span className="mr-4 text-2xl flex-shrink-0">🛍️</span>
+              <span>
+                Currently focused on growing my online business while leveraging technology to improve business operations and customer experience.
               </span>
             </motion.li>
             <motion.li
               className="flex items-start"
               variants={fadeIn("up", "spring", 0.3, 0.75)}
             >
-              <span className="mr-4 text-2xl flex-shrink-0"> 🛠 </span>
-              <span style={{ marginLeft: "7px" }}>
-                I'm passionate about building software with aesthetically
-                pleasing interfaces that deliver high practical value.
+              <span className="mr-4 text-2xl flex-shrink-0">🛠️</span>
+              <span>
+                I enjoy creating modern web applications with clean, user-friendly interfaces and real-world value.
               </span>
             </motion.li>
             <motion.li
@@ -160,8 +155,7 @@ const About = () => {
             >
               <span className="mr-4 text-2xl flex-shrink-0">💡</span>
               <span>
-                I have a deep love for IT, constantly seeking knowledge and
-                always ready to learn new technologies.
+                I'm always eager to learn new technologies, especially in AI, automation, and e-commerce, to develop smarter and more efficient solutions.
               </span>
             </motion.li>
             <motion.li
@@ -177,10 +171,7 @@ const About = () => {
                   fontSize: "20px", // (Tùy chọn) Thêm in đậm cho rõ hơn
                 }}
               >
-                I aim to gain in-depth expertise in React.js and develop
-                practical projects, including a leather goods e-commerce website
-                and an AI-integrated cooking website. My long-term goal is to
-                secure a stable job in my hometown!
+                My goal is to combine software development with online business, building AI-powered applications and scalable e-commerce platforms that solve real problems.
               </span>
             </motion.li>
           </motion.ul>

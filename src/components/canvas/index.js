@@ -1,3 +1,5 @@
 import StarsCanvas from "./Stars";
+import LaptopCanvas from "./LaptopCanvas";
+import TroisLightsCanvas from "./TroisLightsCanvas";
 
-export { StarsCanvas };
+export { StarsCanvas, LaptopCanvas, TroisLightsCanvas };
