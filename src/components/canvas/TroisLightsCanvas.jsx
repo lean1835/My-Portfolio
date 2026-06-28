@@ -244,6 +244,7 @@ export default function TroisLightsCanvas() {
           enableDamping
           dampingFactor={0.05}
           enableZoom={false}
+          enableRotate={false}
           target={[0, 0, 0]}
         />
         <Preload all />
