@@ -1,5 +1,5 @@
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
-import { OrbitControls, Preload, useTexture, Text } from "@react-three/drei";
+import { Preload, useTexture, Text } from "@react-three/drei";
 import { useRef, useState, useEffect, useLayoutEffect, Suspense, useMemo } from "react";
 import * as THREE from "three";
 import { RectAreaLightUniformsLib } from "three/examples/jsm/lights/RectAreaLightUniformsLib.js";
@@ -205,6 +205,24 @@ const CustomBloom = () => {
   return null;
 };
 
+const AutoRotateCamera = () => {
+  const { camera } = useThree();
+
+  useFrame((state) => {
+    // 4.5 RPM (rotations per minute)
+    // 4.5 * 2 * Math.PI / 60 = 0.471238898 radians per second
+    const speed = 0.471238898;
+    const time = state.clock.getElapsedTime() * speed;
+
+    camera.position.x = Math.sin(time) * 8;
+    camera.position.z = Math.cos(time) * 8;
+    camera.position.y = 3;
+    camera.lookAt(0, 0, 0);
+  });
+
+  return null;
+};
+
 export default function TroisLightsCanvas() {
   return (
     <>
@@ -220,6 +238,7 @@ export default function TroisLightsCanvas() {
           width: "100%",
           height: "100%",
           background: "black",
+          touchAction: "pan-y",
         }}
       >
         <Suspense fallback={null}>
@@ -238,15 +257,7 @@ export default function TroisLightsCanvas() {
           <CustomBloom />
         </Suspense>
 
-        <OrbitControls
-          autoRotate
-          autoRotateSpeed={4.5}
-          enableDamping
-          dampingFactor={0.05}
-          enableZoom={false}
-          enableRotate={false}
-          target={[0, 0, 0]}
-        />
+        <AutoRotateCamera />
         <Preload all />
       </Canvas>
     </>
